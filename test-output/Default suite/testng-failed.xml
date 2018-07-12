@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testAutomation.DropDownTest">
+      <class name="testAutomation.WindowHandle1">
         <methods>
-          <include name="selectDDvalue"/>
+          <include name="setupTest"/>
+          <include name="endTest"/>
+          <include name="selectWindows"/>
         </methods>
-      </class> <!-- testAutomation.DropDownTest -->
+      </class> <!-- testAutomation.WindowHandle1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
