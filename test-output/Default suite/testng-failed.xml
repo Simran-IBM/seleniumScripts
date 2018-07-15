@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testAutomation.WindowHandle1">
+      <class name="testAutomation.VerifyLinks">
         <methods>
-          <include name="setupTest"/>
           <include name="endTest"/>
-          <include name="selectWindows"/>
+          <include name="setupTest"/>
+          <include name="verifyLinkActive"/>
         </methods>
-      </class> <!-- testAutomation.WindowHandle1 -->
+      </class> <!-- testAutomation.VerifyLinks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
