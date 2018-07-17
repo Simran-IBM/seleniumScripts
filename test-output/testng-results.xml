@@ -1,53 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="60" started-at="2018-07-15T14:24:17Z" finished-at="2018-07-15T14:24:17Z">
+  <suite name="Default suite" duration-ms="24296" started-at="2018-07-17T18:07:00Z" finished-at="2018-07-17T18:07:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="60" started-at="2018-07-15T14:24:17Z" finished-at="2018-07-15T14:24:17Z">
-      <class name="testAutomation.TestNGAnnotate">
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:testAutomation.TestNGAnnotate@33f88ab]" name="setupTest" is-config="true" duration-ms="13" started-at="2018-07-15T14:24:17Z" finished-at="2018-07-15T14:24:17Z">
+    <test name="Default test" duration-ms="24296" started-at="2018-07-17T18:07:00Z" finished-at="2018-07-17T18:07:24Z">
+      <class name="testAutomation.ExplicitWaitTest">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testAutomation.ExplicitWaitTest@33f88ab]" name="setupTest" is-config="true" duration-ms="16307" started-at="2018-07-17T18:07:00Z" finished-at="2018-07-17T18:07:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="login()[pri:0, instance:testAutomation.TestNGAnnotate@33f88ab]" name="login" is-config="true" duration-ms="0" started-at="2018-07-15T14:24:17Z" finished-at="2018-07-15T14:24:17Z">
+        <test-method status="PASS" signature="waitTest()[pri:0, instance:testAutomation.ExplicitWaitTest@33f88ab]" name="waitTest" duration-ms="6862" started-at="2018-07-17T18:07:16Z" finished-at="2018-07-17T18:07:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="addProduct()[pri:0, instance:testAutomation.TestNGAnnotate@33f88ab]" name="addProduct" duration-ms="7" started-at="2018-07-15T14:24:17Z" finished-at="2018-07-15T14:24:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addProduct -->
-        <test-method status="PASS" signature="login1()[pri:0, instance:testAutomation.TestNGAnnotate@33f88ab]" name="login1" is-config="true" duration-ms="0" started-at="2018-07-15T14:24:17Z" finished-at="2018-07-15T14:24:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login1 -->
-        <test-method status="PASS" signature="logout1()[pri:0, instance:testAutomation.TestNGAnnotate@33f88ab]" name="logout1" is-config="true" duration-ms="0" started-at="2018-07-15T14:24:17Z" finished-at="2018-07-15T14:24:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout1 -->
-        <test-method status="PASS" signature="login1()[pri:0, instance:testAutomation.TestNGAnnotate@33f88ab]" name="login1" is-config="true" duration-ms="1" started-at="2018-07-15T14:24:17Z" finished-at="2018-07-15T14:24:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login1 -->
-        <test-method status="PASS" signature="addVendor()[pri:0, instance:testAutomation.TestNGAnnotate@33f88ab]" name="addVendor" duration-ms="4" started-at="2018-07-15T14:24:17Z" finished-at="2018-07-15T14:24:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addVendor -->
-        <test-method status="PASS" signature="logout1()[pri:0, instance:testAutomation.TestNGAnnotate@33f88ab]" name="logout1" is-config="true" duration-ms="1" started-at="2018-07-15T14:24:17Z" finished-at="2018-07-15T14:24:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout1 -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:testAutomation.TestNGAnnotate@33f88ab]" name="logout" is-config="true" duration-ms="0" started-at="2018-07-15T14:24:17Z" finished-at="2018-07-15T14:24:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testAutomation.TestNGAnnotate@33f88ab]" name="endTest" is-config="true" duration-ms="1" started-at="2018-07-15T14:24:17Z" finished-at="2018-07-15T14:24:17Z">
+        </test-method> <!-- waitTest -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testAutomation.ExplicitWaitTest@33f88ab]" name="endTest" is-config="true" duration-ms="1091" started-at="2018-07-17T18:07:23Z" finished-at="2018-07-17T18:07:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- testAutomation.TestNGAnnotate -->
+      </class> <!-- testAutomation.ExplicitWaitTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
