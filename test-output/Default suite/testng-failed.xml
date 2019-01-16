@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testAutomation.SeleniumTestChrome">
+      <class name="testAutomation.ExtentReportDemo">
         <methods>
-          <include name="endTest"/>
-          <include name="setupTest"/>
-          <include name="selectDDvalue"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- testAutomation.SeleniumTestChrome -->
+      </class> <!-- testAutomation.ExtentReportDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
